@@ -1,7 +1,3 @@
-- `try...catch...finally`
-- `throw` statement
-- Custom Error creation
-
 ### Error Handling in JavaScript
 
 #### try...catch...finally
