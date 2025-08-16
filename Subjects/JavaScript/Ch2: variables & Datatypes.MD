@@ -116,12 +116,12 @@ const greet3 = function () {
 
 ###### Summary Table
 
-| Type                 | Hoisted     | Accessible Before Declaration | Notes                                 |
-| -------------------- | ----------- | ----------------------------- | ------------------------------------- |
-| `var`                | ✅ Yes      | ✅ Yes (value = undefined)    | Function-scoped                       |
-| `let`, `const`       | ✅ Yes      | ❌ No (in TDZ)                | Block-scoped, safer                   |
-| Function Declaration | ✅ Yes      | ✅ Yes                        | Can be called before declaration      |
-| Function Expression  | ✅ (as var) | ❌ No (undefined)             | Acts like variable, not fully hoisted |
+| Type                 | Hoisted | Accessible Before Declaration | Notes                               |
+| -------------------- | ------- | ----------------------------- | ----------------------------------- |
+| `var`                | ✅ Yes  | ✅ Yes (value = undefined)    | Function-scoped                     |
+| `let`, `const`       | ✅ Yes  | ❌ No (in TDZ)                | Block-scoped, safer                 |
+| Function Declaration | ✅ Yes  | ✅ Yes                        | Can be called before declaration    |
+| Function Expression  | ✅ Yes  | ❌ No (in TDZ)                | Cannot be called before declaration |
 
 #### Closure
 
